@@ -19,7 +19,7 @@ class RejestracjaNowegoUzytkownika(unittest.TestCase):
     def setUp(self):
         # WARUNKI WSTĘPNE
         # 1. Otwarta przeglądarka
-        #self.driver = webdriver.Chrome()
+        self.driver = webdriver.Chrome()
         self.driver.maximize_window()
         # 2. Otwarta strona główna
         self.driver.get("https://www.eobuwie.com.pl/")
